@@ -1,6 +1,8 @@
 body{
     background-color: #3B4048;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .namespaces{
@@ -41,8 +43,7 @@ body{
 .rooms{
     background: #3B4048;
     min-height: 100vh;
-    color: #ABB2BF;
-    
+    color: #ABB2BF; 
 }
 
 
@@ -94,7 +95,7 @@ input {
     list-style-type: none; margin: 0; padding: 0; 
     color: #3B4048;
     max-height: 85%;
-    overflow: scroll;
+    overflow: auto;
 }
 #messages li .user-image{
     /* width: 50px; */
